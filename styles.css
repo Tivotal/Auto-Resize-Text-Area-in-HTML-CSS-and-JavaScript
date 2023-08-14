@@ -1,0 +1,65 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #4070f4;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+}
+
+.wrapper {
+  width: 470px;
+  background: #fff;
+  padding: 25px 25px 30px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #4070f4;
+}
+
+.wrapper textarea {
+  width: 100%;
+  max-height: 330px;
+  height: 59px;
+  margin-top: 20px;
+  padding: 15px;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+}
+
+.wrapper textarea::placeholder {
+  color: #b3b3b3;
+}
+
+.wrapper textarea:focus,
+.wrapper textarea:valid {
+  padding: 14px;
+  border: 2px solid #4070f4;
+}
+
+.wrapper textarea::-webkit-scrollbar {
+  width: 0px;
+}
